@@ -67,8 +67,9 @@ Cache-Control: no-cache
 Note: "application/json" must sent as the content-type header. 
 
 If an access token is successfully retrieved, the microservice will return a JSON object containing the following attributes:
+
 |Name | Description |
-|-----|-------|
+|-----|-------------|
 |accesstoken  | The token to use when accessing the resource  |
 |expires_on  | Epoch time at which the token will expire  |
 |action  | A text description of whether the token is newly retrieved, refreshed, cached or expired/re-retrieved  |
